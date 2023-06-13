@@ -8,7 +8,7 @@
   <title>Bootstrap form</title>
   <script>
     function validateForm() {
-      var form = document.getElementById('survey');
+      const form = document.getElementById('survey');
       form.classList.add('was-validated');
     }
   </script>
@@ -68,6 +68,36 @@
           <li>Pievienot sadaļu, lai varētu atzīmēt vai persona dod priekšroku vaniļas vai šokolādes saldējuma.</li>
           <li>Pievienot sadaļu, lai varētu atzīmēt visus veikalus, kuros ikdienā iepērkas.</li>
         </ol>
+        <h6>Papildus uzdevumi</h6>
+        <ol>
+          <li>Ievietot lapā vidoe, kurš tiek atskaņot uzreiz kā lapa tiek atvērta. Izmantot pēc iespējas specifiskāku
+            HTML
+            tagu.
+          </li>
+          <li>
+            Ievietojam 3 kartiņas vienu otrai blakus (horizontāli). Kartiņā ir bilde, virsraksts un teksts. Var izmantot
+            bootsrap kartiņas.
+          </li>
+          <li>Ielikt 6 bildes. No sākuma uz lielā ekrāna ir jābūt 3 bildēm horizontāli, 2 rindās. Samazinoties ekrānam,
+            bildes rindā paliek mazāk, tās sakārtojas viena zem otras.
+          </li>
+          <li>
+            Izveidot tabulu, kurā cells aizņem vairāk kā vienu cell daļu, pielikt border.
+          </li>
+          <li>
+            Ielikt header ar navigāciju .
+          </li>
+          <li>
+            Ielikt carousel elementu.
+          </li>
+          <li>Izmantot opacity (var apskatīties bootsrap).</li>
+          <li>
+            Izmantot collapse.
+          </li>
+          <li>
+            Ieviet fonā bildi (vai kādu krāsas elementu) kurš atkārtojas.
+          </li>
+        </ol>
       </div>
 
       <div class="row border p-3 my-3">
@@ -85,7 +115,8 @@
       </div>
 
       <div class="d-flex justify-content-center">
-        <button type="submit" class="btn btn-primary d-flex justify-content-center" onclick="validateForm()">Submit</button>
+        <button type="submit" class="btn btn-primary d-flex justify-content-center"
+          onclick="validateForm()">Submit</button>
       </div>
     </form>
   </div>
@@ -93,5 +124,3 @@
 </body>
 
 </html>
-
-
