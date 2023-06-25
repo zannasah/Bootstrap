@@ -6,6 +6,7 @@
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <title>Bootstrap form</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     function validateForm() {
       const form = document.getElementById('survey');
@@ -65,38 +66,8 @@
         <ol>
           <li>Pievieno sadaļu, lai varētu pievienot savu epastu. Input laukā parādi e-pasta piemēru.</li>
           <li>Pievieno sadaļu, lai varētu pievienot savu foto.</li>
-          <li>Pievienot sadaļu, lai varētu atzīmēt vai persona dod priekšroku vaniļas vai šokolādes saldējuma.</li>
-          <li>Pievienot sadaļu, lai varētu atzīmēt visus veikalus, kuros ikdienā iepērkas.</li>
-        </ol>
-        <h6>Papildus uzdevumi</h6>
-        <ol>
-          <li>Ievietot lapā vidoe, kurš tiek atskaņot uzreiz kā lapa tiek atvērta. Izmantot pēc iespējas specifiskāku
-            HTML
-            tagu.
-          </li>
-          <li>
-            Ievietojam 3 kartiņas vienu otrai blakus (horizontāli). Kartiņā ir bilde, virsraksts un teksts. Var izmantot
-            bootsrap kartiņas.
-          </li>
-          <li>Ielikt 6 bildes. No sākuma uz lielā ekrāna ir jābūt 3 bildēm horizontāli, 2 rindās. Samazinoties ekrānam,
-            bildes rindā paliek mazāk, tās sakārtojas viena zem otras.
-          </li>
-          <li>
-            Izveidot tabulu, kurā cells aizņem vairāk kā vienu cell daļu, pielikt border.
-          </li>
-          <li>
-            Ielikt header ar navigāciju .
-          </li>
-          <li>
-            Ielikt carousel elementu.
-          </li>
-          <li>Izmantot opacity (var apskatīties bootsrap).</li>
-          <li>
-            Izmantot collapse.
-          </li>
-          <li>
-            Ieviet fonā bildi (vai kādu krāsas elementu) kurš atkārtojas.
-          </li>
+          <li>Pievienot sadaļu, lai varētu atzīmēt vai persona dod priekšroku vaniļas vai šokolādes saldējuma (radio).</li>
+          <li>Pievienot sadaļu, lai varētu atzīmēt visus veikalus, kuros ikdienā iepērkas (checkbox).</li>
         </ol>
       </div>
 
@@ -118,6 +89,18 @@
         <button type="submit" class="btn btn-primary d-flex justify-content-center"
           onclick="validateForm()">Submit</button>
       </div>
+
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li>Action</li>
+          <li>Another action</li>
+          <li>Something else here</li>
+        </ul>
+      </div>
+
     </form>
   </div>
 
